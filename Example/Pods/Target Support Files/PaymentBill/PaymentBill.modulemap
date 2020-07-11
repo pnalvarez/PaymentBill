@@ -1,0 +1,6 @@
+framework module PaymentBill {
+  umbrella header "PaymentBill-umbrella.h"
+
+  export *
+  module * { export * }
+}

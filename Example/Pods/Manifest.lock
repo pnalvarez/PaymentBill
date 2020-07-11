@@ -1,0 +1,27 @@
+PODS:
+  - PaymentBill (0.1.0):
+    - SDProgressHUD
+    - SnapKit
+  - SDProgressHUD (1.0.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - PaymentBill (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDProgressHUD
+    - SnapKit
+
+EXTERNAL SOURCES:
+  PaymentBill:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PaymentBill: 3e6fc83fe0ddee283241b2f577c4ccc0fd19e995
+  SDProgressHUD: 5de2c06d81774597fdf8b47e30bbe85193d7e4cb
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 767eafea809a6ca20fde2c58e0b3f24984dc7fc1
+
+COCOAPODS: 1.9.3

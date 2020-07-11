@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B7226D0E456B5F8D208EA75 /* Pods_PaymentBill_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B562776C0A90CDC7D5283B /* Pods_PaymentBill_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		CFE41590826090DADF8D8898 /* Pods_PaymentBill_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB9146D1A4A10A1DE95E5DF /* Pods_PaymentBill_Example.framework */; };
+		8CF31A490D6B894B25ED4146 /* Pods_PaymentBill_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB93DA8ED2EDCB0E71D49C4 /* Pods_PaymentBill_Example.framework */; };
+		A0509421A720C0FD4AFAA997 /* Pods_PaymentBill_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F5A5BAAE3FBCA488E08EA2 /* Pods_PaymentBill_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08F56EE4C758F0C442CC73AC /* Pods-PaymentBill_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentBill_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PaymentBill_Tests/Pods-PaymentBill_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2093D651420ACBBEB6965615 /* PaymentBill.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PaymentBill.podspec; path = ../PaymentBill.podspec; sourceTree = "<group>"; };
-		25B562776C0A90CDC7D5283B /* Pods_PaymentBill_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentBill_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CF1ABACA0FFF63133CCF09F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4EB9146D1A4A10A1DE95E5DF /* Pods_PaymentBill_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentBill_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2093D651420ACBBEB6965615 /* PaymentBill.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PaymentBill.podspec; path = ../PaymentBill.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21D211021F75C578AFD0B5A1 /* Pods-PaymentBill_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentBill_Example.debug.xcconfig"; path = "Target Support Files/Pods-PaymentBill_Example/Pods-PaymentBill_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		24BB491267A90AE5CCF9318F /* Pods-PaymentBill_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentBill_Example.release.xcconfig"; path = "Target Support Files/Pods-PaymentBill_Example/Pods-PaymentBill_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4220032CC4F0C31B2323614C /* Pods-PaymentBill_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentBill_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PaymentBill_Tests/Pods-PaymentBill_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF1ABACA0FFF63133CCF09F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PaymentBill_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentBill_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* PaymentBill_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentBill_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61B9176469E6ECED0A13835C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		66D65E46CAD8F2D423529232 /* Pods-PaymentBill_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentBill_Tests.release.xcconfig"; path = "Target Support Files/Pods-PaymentBill_Tests/Pods-PaymentBill_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A9B876F22B43BB124AE70171 /* Pods-PaymentBill_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentBill_Example.release.xcconfig"; path = "Target Support Files/Pods-PaymentBill_Example/Pods-PaymentBill_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E5C29AB982512868D8801B90 /* Pods-PaymentBill_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentBill_Example.debug.xcconfig"; path = "Target Support Files/Pods-PaymentBill_Example/Pods-PaymentBill_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		61B9176469E6ECED0A13835C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A330B1471F089CFF8EE6FE8 /* Pods-PaymentBill_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentBill_Tests.release.xcconfig"; path = "Target Support Files/Pods-PaymentBill_Tests/Pods-PaymentBill_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DEB93DA8ED2EDCB0E71D49C4 /* Pods_PaymentBill_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentBill_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F5A5BAAE3FBCA488E08EA2 /* Pods_PaymentBill_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentBill_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE41590826090DADF8D8898 /* Pods_PaymentBill_Example.framework in Frameworks */,
+				8CF31A490D6B894B25ED4146 /* Pods_PaymentBill_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,32 +62,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7226D0E456B5F8D208EA75 /* Pods_PaymentBill_Tests.framework in Frameworks */,
+				A0509421A720C0FD4AFAA997 /* Pods_PaymentBill_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1828CE90F73F93A9AAEF4FA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEB93DA8ED2EDCB0E71D49C4 /* Pods_PaymentBill_Example.framework */,
+				F2F5A5BAAE3FBCA488E08EA2 /* Pods_PaymentBill_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		30116F818AC848E89A8F604A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E5C29AB982512868D8801B90 /* Pods-PaymentBill_Example.debug.xcconfig */,
-				A9B876F22B43BB124AE70171 /* Pods-PaymentBill_Example.release.xcconfig */,
-				08F56EE4C758F0C442CC73AC /* Pods-PaymentBill_Tests.debug.xcconfig */,
-				66D65E46CAD8F2D423529232 /* Pods-PaymentBill_Tests.release.xcconfig */,
+				21D211021F75C578AFD0B5A1 /* Pods-PaymentBill_Example.debug.xcconfig */,
+				24BB491267A90AE5CCF9318F /* Pods-PaymentBill_Example.release.xcconfig */,
+				4220032CC4F0C31B2323614C /* Pods-PaymentBill_Tests.debug.xcconfig */,
+				8A330B1471F089CFF8EE6FE8 /* Pods-PaymentBill_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		3E32968BA4C390B2F947E21B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4EB9146D1A4A10A1DE95E5DF /* Pods_PaymentBill_Example.framework */,
-				25B562776C0A90CDC7D5283B /* Pods_PaymentBill_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -98,7 +97,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				30116F818AC848E89A8F604A /* Pods */,
-				3E32968BA4C390B2F947E21B /* Frameworks */,
+				1828CE90F73F93A9AAEF4FA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PaymentBill_Example" */;
 			buildPhases = (
-				FCE13058DF81783A976346FB /* [CP] Check Pods Manifest.lock */,
+				7CA01457A3B0CAB92A8F6072 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				C6DC81762419CBABEEAA9A98 /* [CP] Embed Pods Frameworks */,
+				21B6A2E5893DFD8D9935B37D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PaymentBill_Tests" */;
 			buildPhases = (
-				EA6CAABE9C8C80DD414E110B /* [CP] Check Pods Manifest.lock */,
+				E33BABB58EB6314C813F216B /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,7 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C6DC81762419CBABEEAA9A98 /* [CP] Embed Pods Frameworks */ = {
+		21B6A2E5893DFD8D9935B37D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,39 +270,21 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PaymentBill_Example/Pods-PaymentBill_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PaymentBill/PaymentBill.framework",
+				"${BUILT_PRODUCTS_DIR}/SDProgressHUD/SDProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaymentBill.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaymentBill_Example/Pods-PaymentBill_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA6CAABE9C8C80DD414E110B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PaymentBill_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FCE13058DF81783A976346FB /* [CP] Check Pods Manifest.lock */ = {
+		7CA01457A3B0CAB92A8F6072 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,6 +300,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PaymentBill_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33BABB58EB6314C813F216B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentBill_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -475,7 +479,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5C29AB982512868D8801B90 /* Pods-PaymentBill_Example.debug.xcconfig */;
+			baseConfigurationReference = 21D211021F75C578AFD0B5A1 /* Pods-PaymentBill_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PaymentBill/Info.plist;
@@ -490,7 +494,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9B876F22B43BB124AE70171 /* Pods-PaymentBill_Example.release.xcconfig */;
+			baseConfigurationReference = 24BB491267A90AE5CCF9318F /* Pods-PaymentBill_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PaymentBill/Info.plist;
@@ -505,7 +509,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08F56EE4C758F0C442CC73AC /* Pods-PaymentBill_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4220032CC4F0C31B2323614C /* Pods-PaymentBill_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +531,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66D65E46CAD8F2D423529232 /* Pods-PaymentBill_Tests.release.xcconfig */;
+			baseConfigurationReference = 8A330B1471F089CFF8EE6FE8 /* Pods-PaymentBill_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

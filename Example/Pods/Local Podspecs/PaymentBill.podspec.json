@@ -1,0 +1,32 @@
+{
+  "name": "PaymentBill",
+  "version": "0.1.0",
+  "summary": "This is a SDK for bank slip payments",
+  "description": "This is just an example about the correct use of Cocoa Pods",
+  "homepage": "https://github.com/pnalvarez/PaymentBill",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pnalvarez": "pedronalvarez@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pnalvarez/PaymentBill.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "PaymentBill/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "SDProgressHUD": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
